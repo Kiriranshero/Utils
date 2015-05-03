@@ -78,9 +78,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JsonConfig\JsonConfig.csproj">
+    <ProjectReference Include="..\JsonConfig\Utils.csproj">
       <Project>{5ee8d681-7d43-4c9c-a435-eed3f78cc08d}</Project>
-      <Name>JsonConfig</Name>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

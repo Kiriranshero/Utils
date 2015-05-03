@@ -5,7 +5,9 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWindow", "TestWindow\TestWindow.csproj", "{D3B08D60-57CE-4DA7-97ED-662BC3FD7730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConfig", "JsonConfig\JsonConfig.csproj", "{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "JsonConfig\Utils.csproj", "{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerFrameworkForWeb", "ServerFrameworkForWeb\ServerFrameworkForWeb.csproj", "{266094D8-60F9-400C-8C55-223E70C93BBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266094D8-60F9-400C-8C55-223E70C93BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266094D8-60F9-400C-8C55-223E70C93BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266094D8-60F9-400C-8C55-223E70C93BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266094D8-60F9-400C-8C55-223E70C93BBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
