@@ -47,9 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JsonConfig.cs" />
-    <Compile Include="JsonRequest.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerFramework
+namespace TestWindow
 {
-    public abstract class ServerConfigBase
+    public class TestClass2 : TestClass1
     {
-        public DateFormat DateFormat { get; set; }
     }
 }

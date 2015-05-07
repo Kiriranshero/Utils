@@ -52,6 +52,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestClass1.cs" />
+    <Compile Include="TestClass2.cs" />
+    <Compile Include="TestClass3.cs" />
+    <Compile Include="TestClass4.cs" />
+    <Compile Include="TestEnum.cs" />
+    <Compile Include="TestStruct.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,9 +84,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JsonConfig\Utils.csproj">
+    <ProjectReference Include="..\JsonConfig\JsonConfig.csproj">
       <Project>{5ee8d681-7d43-4c9c-a435-eed3f78cc08d}</Project>
-      <Name>Utils</Name>
+      <Name>JsonConfig</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JsonRequest\JsonRequest.csproj">
+      <Project>{72f19b62-ac24-409d-bcaa-4a94f9ceafdf}</Project>
+      <Name>JsonRequest</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessageConvert\MessageConvert.csproj">
+      <Project>{2dc43911-f8e7-426c-a806-37a0237c44ea}</Project>
+      <Name>MessageConvert</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

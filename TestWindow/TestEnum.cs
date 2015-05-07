@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerFramework
+namespace TestWindow
 {
-    public interface IHelp
+    public enum TestEnum
     {
-        string[] GetNode();
+        Data1,
+        Date2,
+        Date3
     }
 }

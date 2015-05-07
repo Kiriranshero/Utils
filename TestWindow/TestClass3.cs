@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ServerFramework
+namespace TestWindow
 {
-    public class IgnoreCryptoAttribute : Attribute
+    public class TestClass3
     {
     }
 }

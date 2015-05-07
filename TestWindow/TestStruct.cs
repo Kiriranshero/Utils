@@ -3,13 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
 
-namespace ServerFramework
+namespace TestWindow
 {
-    [System]
-    public abstract class SystemController : Controller
+    public struct TestStruct
     {
     }
 }
