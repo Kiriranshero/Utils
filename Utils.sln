@@ -8,10 +8,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConfig", "JsonConfig\JsonConfig.csproj", "{5EE8D681-7D43-4C9C-A435-EED3F78CC08D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DE9D6021-3464-4E6C-86C4-11CB1E8D82FF}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\ServerFramework.dll = Lib\ServerFramework.dll
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageConvert", "MessageConvert\MessageConvert.csproj", "{2DC43911-F8E7-426C-A806-37A0237C44EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRequest", "JsonRequest\JsonRequest.csproj", "{72F19B62-AC24-409D-BCAA-4A94F9CEAFDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestServerFramework", "TestServerFramework\TestServerFramework.csproj", "{8D39AF81-2C47-4DC5-8213-2B526DA66BFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +40,10 @@ Global
 		{72F19B62-AC24-409D-BCAA-4A94F9CEAFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F19B62-AC24-409D-BCAA-4A94F9CEAFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F19B62-AC24-409D-BCAA-4A94F9CEAFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D39AF81-2C47-4DC5-8213-2B526DA66BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D39AF81-2C47-4DC5-8213-2B526DA66BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D39AF81-2C47-4DC5-8213-2B526DA66BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D39AF81-2C47-4DC5-8213-2B526DA66BFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
